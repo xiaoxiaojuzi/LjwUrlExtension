@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE226734228B2C6700063F8A"
-               BuildableName = "URLExtention.app"
-               BlueprintName = "URLExtention"
-               ReferencedContainer = "container:URLExtention.xcodeproj">
+               BuildableName = "LjwUrlExtension.app"
+               BlueprintName = "LjwUrlExtension"
+               ReferencedContainer = "container:LjwUrlExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE226748228B2C6900063F8A"
-               BuildableName = "URLExtentionTests.xctest"
-               BlueprintName = "URLExtentionTests"
-               ReferencedContainer = "container:URLExtention.xcodeproj">
+               BuildableName = "LjwUrlExtensionTests.xctest"
+               BlueprintName = "LjwUrlExtensionTests"
+               ReferencedContainer = "container:LjwUrlExtension.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE226753228B2C6900063F8A"
-               BuildableName = "URLExtentionUITests.xctest"
-               BlueprintName = "URLExtentionUITests"
-               ReferencedContainer = "container:URLExtention.xcodeproj">
+               BuildableName = "LjwUrlExtensionUITests.xctest"
+               BlueprintName = "LjwUrlExtensionUITests"
+               ReferencedContainer = "container:LjwUrlExtension.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE226734228B2C6700063F8A"
-            BuildableName = "URLExtention.app"
-            BlueprintName = "URLExtention"
-            ReferencedContainer = "container:URLExtention.xcodeproj">
+            BuildableName = "LjwUrlExtension.app"
+            BlueprintName = "LjwUrlExtension"
+            ReferencedContainer = "container:LjwUrlExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE226734228B2C6700063F8A"
-            BuildableName = "URLExtention.app"
-            BlueprintName = "URLExtention"
-            ReferencedContainer = "container:URLExtention.xcodeproj">
+            BuildableName = "LjwUrlExtension.app"
+            BlueprintName = "LjwUrlExtension"
+            ReferencedContainer = "container:LjwUrlExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AE226734228B2C6700063F8A"
-            BuildableName = "URLExtention.app"
-            BlueprintName = "URLExtention"
-            ReferencedContainer = "container:URLExtention.xcodeproj">
+            BuildableName = "LjwUrlExtension.app"
+            BlueprintName = "LjwUrlExtension"
+            ReferencedContainer = "container:LjwUrlExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

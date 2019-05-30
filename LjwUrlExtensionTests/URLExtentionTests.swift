@@ -6,7 +6,7 @@
 //  Copyright © 2019 WangLvju. All rights reserved.
 //
 
-@testable import URLExtention
+@testable import LjwUrlExtension
 import Quick
 import Nimble
 

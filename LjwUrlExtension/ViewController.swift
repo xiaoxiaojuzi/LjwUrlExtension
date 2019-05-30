@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  URLExtention
+//  LjwUrlExtension
 //
 //  Created by WangLvju on 2019/5/15.
 //  Copyright © 2019 WangLvju. All rights reserved.
