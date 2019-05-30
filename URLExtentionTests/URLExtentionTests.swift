@@ -6,29 +6,38 @@
 //  Copyright © 2019 WangLvju. All rights reserved.
 //
 
-import XCTest
 @testable import URLExtention
+import Quick
+import Nimble
 
-class URLExtentionTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+class UrlUsingStringSpec: QuickSpec {
+    override func spec() {
+        describe("test AppendQueryItem") {
+            it("shoud append new query item, when the url doesn't have query item") {
+                let baseURL = "https://github.com/"
+                let itemName = "a"
+                let itemValue = "1"
+                let expectURL = baseURL + "?" + itemName + "=" + itemValue
+                let newURL = URL.appendQueryItem(baseUrl: baseURL, item: URLQueryItem(name: itemName, value: itemValue))
+                expect(newURL?.absoluteString).to(equal(expectURL))
+            }
+            it("shoud append new query item, when the url has a query item using other name") {
+                let baseURL = "https://github.com/?a=1"
+                let itemName = "b"
+                let itemValue = "2"
+                let expectURL = baseURL + "&" + itemName + "=" + itemValue
+                let newURL = URL.appendQueryItem(baseUrl: baseURL, item: URLQueryItem(name: itemName, value: itemValue))
+                expect(newURL?.absoluteString).to(equal(expectURL))
+            }
+            it("shoud not append new query item, when the url has a query item using same name") {
+                let baseURL = "https://github.com/?a=1"
+                let itemName = "a"
+                let itemValue = "2"
+                let expectURL = baseURL
+                let newURL = URL.appendQueryItem(baseUrl: baseURL, item: URLQueryItem(name: itemName, value: itemValue))
+                expect(newURL?.absoluteString).to(equal(expectURL))
+            }
         }
     }
-
 }
+

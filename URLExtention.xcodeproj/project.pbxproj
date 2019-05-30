@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EDBCC6F0CC37C3A10D80946 /* libPods-URLExtentionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0CF5CEB3F9DD0238420DE8D /* libPods-URLExtentionTests.a */; };
 		AE226739228B2C6700063F8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE226738228B2C6700063F8A /* AppDelegate.swift */; };
 		AE22673B228B2C6700063F8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22673A228B2C6700063F8A /* ViewController.swift */; };
 		AE22673E228B2C6700063F8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE22673C228B2C6700063F8A /* Main.storyboard */; };
@@ -14,7 +15,7 @@
 		AE226743228B2C6900063F8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE226741228B2C6900063F8A /* LaunchScreen.storyboard */; };
 		AE22674E228B2C6900063F8A /* URLExtentionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE22674D228B2C6900063F8A /* URLExtentionTests.swift */; };
 		AE226759228B2C6900063F8A /* URLExtentionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE226758228B2C6900063F8A /* URLExtentionUITests.swift */; };
-		F422A1BAFDCA3A29BF1E26D0 /* libPods-URLExtention.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D66438C1F408137419AEDB /* libPods-URLExtention.a */; };
+		AEFEF45E228C183C003A09B9 /* UrlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFEF45D228C183C003A09B9 /* UrlExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FC120D5FFFD4B757229CCCE /* Pods-URLExtention.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLExtention.debug.xcconfig"; path = "Target Support Files/Pods-URLExtention/Pods-URLExtention.debug.xcconfig"; sourceTree = "<group>"; };
+		284B6FD3047F2C6611990648 /* Pods-URLExtentionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLExtentionTests.release.xcconfig"; path = "Target Support Files/Pods-URLExtentionTests/Pods-URLExtentionTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE226735228B2C6700063F8A /* URLExtention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLExtention.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE226738228B2C6700063F8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE22673A228B2C6700063F8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +50,10 @@
 		AE226754228B2C6900063F8A /* URLExtentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLExtentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE226758228B2C6900063F8A /* URLExtentionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtentionUITests.swift; sourceTree = "<group>"; };
 		AE22675A228B2C6900063F8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFEF45D228C183C003A09B9 /* UrlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlExtension.swift; sourceTree = "<group>"; };
 		B6D66438C1F408137419AEDB /* libPods-URLExtention.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-URLExtention.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2AD2F447AF4BB4A6CAF7602 /* Pods-URLExtention.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLExtention.release.xcconfig"; path = "Target Support Files/Pods-URLExtention/Pods-URLExtention.release.xcconfig"; sourceTree = "<group>"; };
+		E0CF5CEB3F9DD0238420DE8D /* libPods-URLExtentionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-URLExtentionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8886000E569E1720E9DDF3 /* Pods-URLExtentionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLExtentionTests.debug.xcconfig"; path = "Target Support Files/Pods-URLExtentionTests/Pods-URLExtentionTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F422A1BAFDCA3A29BF1E26D0 /* libPods-URLExtention.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EDBCC6F0CC37C3A10D80946 /* libPods-URLExtentionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B6D66438C1F408137419AEDB /* libPods-URLExtention.a */,
+				E0CF5CEB3F9DD0238420DE8D /* libPods-URLExtentionTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +122,7 @@
 				AE22673F228B2C6900063F8A /* Assets.xcassets */,
 				AE226741228B2C6900063F8A /* LaunchScreen.storyboard */,
 				AE226744228B2C6900063F8A /* Info.plist */,
+				AEFEF45D228C183C003A09B9 /* UrlExtension.swift */,
 			);
 			path = URLExtention;
 			sourceTree = "<group>";
@@ -143,10 +148,9 @@
 		C3400835D001BF24A257641E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0FC120D5FFFD4B757229CCCE /* Pods-URLExtention.debug.xcconfig */,
-				E2AD2F447AF4BB4A6CAF7602 /* Pods-URLExtention.release.xcconfig */,
+				ED8886000E569E1720E9DDF3 /* Pods-URLExtentionTests.debug.xcconfig */,
+				284B6FD3047F2C6611990648 /* Pods-URLExtentionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,7 +161,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE22675D228B2C6900063F8A /* Build configuration list for PBXNativeTarget "URLExtention" */;
 			buildPhases = (
-				D0C278092E81E349D34367D6 /* [CP] Check Pods Manifest.lock */,
 				AE226731228B2C6700063F8A /* Sources */,
 				AE226732228B2C6700063F8A /* Frameworks */,
 				AE226733228B2C6700063F8A /* Resources */,
@@ -175,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE226760228B2C6900063F8A /* Build configuration list for PBXNativeTarget "URLExtentionTests" */;
 			buildPhases = (
+				95013ED851F0F486FB8B9D65 /* [CP] Check Pods Manifest.lock */,
 				AE226745228B2C6900063F8A /* Sources */,
 				AE226746228B2C6900063F8A /* Frameworks */,
 				AE226747228B2C6900063F8A /* Resources */,
@@ -278,7 +282,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D0C278092E81E349D34367D6 /* [CP] Check Pods Manifest.lock */ = {
+		95013ED851F0F486FB8B9D65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,7 +297,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-URLExtention-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-URLExtentionTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -307,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFEF45E228C183C003A09B9 /* UrlExtension.swift in Sources */,
 				AE22673B228B2C6700063F8A /* ViewController.swift in Sources */,
 				AE226739228B2C6700063F8A /* AppDelegate.swift in Sources */,
 			);
@@ -481,7 +486,6 @@
 		};
 		AE22675E228B2C6900063F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FC120D5FFFD4B757229CCCE /* Pods-URLExtention.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -500,7 +504,6 @@
 		};
 		AE22675F228B2C6900063F8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2AD2F447AF4BB4A6CAF7602 /* Pods-URLExtention.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -519,6 +522,7 @@
 		};
 		AE226761228B2C6900063F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8886000E569E1720E9DDF3 /* Pods-URLExtentionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +544,7 @@
 		};
 		AE226762228B2C6900063F8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284B6FD3047F2C6611990648 /* Pods-URLExtentionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
